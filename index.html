@@ -4,90 +4,98 @@
     <meta charset="UTF-8">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="page">
     <header>
-        
+        <a href="/"><span class="web-header">Web</span><span class="studio-header">Studio</span></a>
         <nav>
-        <a class="web" href="/">Web</a><a class="studio" href="/">Studio</a>
-        <ul>
+            <ul>
             <li class="header-item"><a href="">Студия</a></li>
             <li class="header-item"><a href="">Портфолио</a></li>
             <li class="header-item"><a href="">Контакты</a></li>
-        </ul>
+            </ul>
         </nav>
-        <!-- contacts-container -->
+
         <div class="contacts-container">
-         <div><a class="email-header" href="mailto:info@devstudio.com">info@devstudio.com</a></div>
-         <div><a class="phone-number-header" href="tel:+380961111111">+38 096 111 11 11</a></div>
+            <div><a class="email-header" href="mailto:info@devstudio.com">info@devstudio.com</a></div>
+            <div><a class="phone-number-header" href="tel:+380961111111">+38 096 111 11 11</a></div>
         </div>
 
     </header>
     
+
+    <!-- H1 Section-->
     <section class="h1-section">
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button class="order-service">Заказать услугу</button>
+        <h1 class="h1-section-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="order-service"><span class="button-order">Заказать услугу</span></button>
     </section>
 
+    <!-- Features section-->
     <section class="features">
         <ul>
         <li>
-        <h3>Внимание к деталям</h3>
-        <p class="features-text">Идейные соображения, а также </br>начало повседневной работы по </br>формированию позиции.</p>
+        <h3 class="features-title">Внимание к деталям</h3>
+        <p class="text">Идейные соображения, а также </br>начало повседневной работы по </br>формированию позиции.</p>
         </li>
         <li>
-        <h3>Пунктуальность</h3>
-        <p class="features-text">Задача организации, в особенности </br>же рамки и место обучения кадров </br>влечет за собой.</p>
+        <h3 class="features-title">Пунктуальность</h3>
+        <p class="text">Задача организации, в особенности </br>же рамки и место обучения кадров </br>влечет за собой.</p>
         </li>
         <li>
-        <h3>Планирование</h3>
-        <p class="features-text">Равным образом консультация с </br>широким активом в значительной </br>степени обуславливает.</p>
+        <h3 class="features-title">Планирование</h3>
+        <p class="text">Равным образом консультация с </br>широким активом в значительной </br>степени обуславливает.</p>
         </li>
         <li>
-        <h3>Современные технологии</h3>
-        <p class="features-text">Значимость этих проблем настолько </br>очевидна, что реализация плановых </br>заданий.</p>
+        <h3 class="features-title">Современные технологии</h3>
+        <p class="text">Значимость этих проблем настолько </br>очевидна, что реализация плановых </br>заданий.</p>
         </li>
         </ul>
     </section>
     
-    <section class="whad-we-doing">
-        <h2>Чем мы занимаемся</h2>
+    <!-- What are we doing section-->
+
+    <section class="what-are-we-doing">
+        <h2 class="h2-title">Чем мы занимаемся</h2>
         <ul>
-        <li><img class="pictures-of-equipment" src="../goit-markup-hw-01/images/tablet.png" alt="tablet" width="370" height="294"></li>
-        <li><img class="pictures-of-equipment" src="../goit-markup-hw-01/images/mobile.png" alt="mobile and laptop" width="370" height="294"></li>
-        <li><img class="pictures-of-equipment" src="../goit-markup-hw-01/images/tablet2.png" alt="tablet" width="370" height="294"></li>
+       <li><img class="pictures-of-equipment" src="../goit-markup-hw-01/images/tablet.png" alt="tablet"></li> 
+       <li><img class="pictures-of-equipment" src="../goit-markup-hw-01/images/mobile.png" alt="mobile and laptop"></li> 
+       <li><img class="pictures-of-equipment" src="../goit-markup-hw-01/images/tablet2.png" alt="tablet"></li> 
         </ul>
     </section>
     
+    <!-- Our team -->
+
     <section class="our-team">
-        <h2>Наша команда</h2>
+        <h2 class="h2-title">Наша команда</h2>
 
-        <!-- Или лучше использовать просто <div>? -->
         <ul>
 
         <li class="card-person">
-            <img class="photos-person" src="../goit-markup-hw-01/images/Igor.jpg" alt="Igot Demianenko" width="270" height="260">
+            <img class="photos-person" src="../goit-markup-hw-01/images/Igor.jpg" alt="Igor Demianenko" width="270px" height="260px">
             <h3 class="name">Игорь Демьяненко</h3>
-            <p class="position">Product Designer</p>
+            <p class="text">Product Designer</p>
         </li>
 
         <li class="card-person">
-            <img class="photos-person" src="../goit-markup-hw-01/images/Olga.jpg" alt="Olga Repina" width="270" height="260">
+            <img class="photos-person" src="../goit-markup-hw-01/images/Olga.jpg" alt="Olga Repina" width="270px" height="260px">
             <h3 class="name">Ольга Репина</h3>
-            <p class="position">Frontend Developer</p>
+            <p class="text">Frontend Developer</p>
         </li>
 
         <li class="card-person">
-            <img class="photos-person" src="../goit-markup-hw-01/images/Nikolai.jpg" alt="Nikolai Tarasov" width="270" height="260">
+            <img class="photos-person" src="../goit-markup-hw-01/images/Nikolai.jpg" alt="Nikolai Tarasov" width="270px" height="260px">
             <h3 class="name">Николай Тарасов</h3>
-            <p class="position">Marketing</p>
+            <p class="text">Marketing</p>
         </li>
 
         <li class="card-person">
-            <img class="photos-person" src="../goit-markup-hw-01/images/Mikhail.jpg" alt="Mikhail Ermakov" width="270" height="260">
+            <img class="photos-person" src="../goit-markup-hw-01/images/Mikhail.jpg" alt="Mikhail Ermakov" width="270px" height="260px">
             <h3 class="name">Михаил Ермаков</h3>
-            <p class="position">UI Designer</p>
+            <p class="text">UI Designer</p>
         </li>
 
         </ul>
@@ -95,10 +103,12 @@
 
 
     <footer class="footer">
-        <a href="/" class="web">Web</a><a class="studio" href="/">Studio</a>
+        <nav>
+        <span class="web-footer">Web</span><span class="studio-footer">Studio</span>
         <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
         <div><a class="email-footer" href="mailto:info@example.com">info@example.com</a></div>
-         <div><a class="phone-number-footer" href="tel:+380991111111">+38 099 111 11 11</a></div>
+        <div><a class="phone-number-footer" href="tel:+380991111111">+38 099 111 11 11</a></div>
+        </nav>
     </footer>
 </body>
 </html>
