@@ -1,16 +1,25 @@
 /* цвет главного текста background: #212121;
 цвет второстепенного текста background: #757575; */
 
+:root{
+  --main-text-color:#212121;
+  --main-bg-color:#E5E5E5;
+  --primary-bg-color:#F5F4FA;
+}
+
+
 a { 
   text-decoration: none;
+  color: var(--main-text-color);
 }
 
 li{
   list-style-type: none;
+  color: var(--main-text-color);
 }
 
-span:hover , p:hover , h1:hover , h2:hover , h3:hover , li:hover 
-span:focus, p:focus, h1:focus, h2:focus, h3:focus, li:focus{
+p:hover , h1:hover , h2:hover , h3:hover , a:hover 
+p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:hover{
   text-decoration: underline;
   text-decoration-color: #2196F3; 
 }
@@ -24,10 +33,10 @@ span:focus, p:focus, h1:focus, h2:focus, h3:focus, li:focus{
 
 .page{
   color:#212121;
-  background-color: #E5E5E5;;
+  background-color: var(--main-bg-color);
 }
 
-.web-header {
+.web-header{
   top: 24px;
   color: #2196f3;
   font-family: Raleway;
@@ -37,6 +46,7 @@ span:focus, p:focus, h1:focus, h2:focus, h3:focus, li:focus{
   line-height: 31px;
   letter-spacing: 0.03em;
 }
+
 
 
 .studio-header {
@@ -58,7 +68,7 @@ span:focus, p:focus, h1:focus, h2:focus, h3:focus, li:focus{
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color)
 }
 
 .email-header{
@@ -167,6 +177,7 @@ header{
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--main-text-color);
 }
 
 .text{
@@ -190,6 +201,7 @@ header{
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 /* Our team */
@@ -212,6 +224,7 @@ header{
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 
@@ -264,4 +277,53 @@ header{
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6) 
+}
+
+.address{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* PORTFOLIO */
+
+/* Buttons */
+
+.button{
+  background-color: var(--primary-bg-color);
+  color: var(--main-text-color);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em
+}
+
+/* Projects */
+
+.projects{
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.projects-items{
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+}
+
+.project-items-text{
+  font-size: 18px;
+  line-height: 36px;
+  color: #757575;
+}
+
+.project-items-name{
+  font-size: 16px;
+  line-height: 30px;
 }
