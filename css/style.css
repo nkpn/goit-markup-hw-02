@@ -5,28 +5,26 @@
   --main-text-color:#212121;
   --main-bg-color:#E5E5E5;
   --primary-bg-color:#F5F4FA;
+  --blue-bg-color:#2196F3;
 }
 
 
 a { 
   text-decoration: none;
-  color: var(--main-text-color);
+  color: var(--main-text-color)
 }
+
+
 
 li{
   list-style-type: none;
   color: var(--main-text-color);
 }
 
-p:hover , h1:hover , h2:hover , h3:hover , a:hover, address:hover
-p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:focus, address:focus{
+ a:hover, address:hover
+ li:focus, a:focus, address:focus{
   text-decoration: underline;
   text-decoration-color: #2196F3; 
-}
-
-.header-item a:hover
-.header-item a:focus{
-  color:#2196F3; 
 }
 
 /* HEADER */
@@ -46,7 +44,9 @@ p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:focus, address:focus{
   letter-spacing: 0.03em;
 }
 
-
+.header-item a:hover{
+  color: #2196F3;
+}
 
 .studio-header {
   color: #212121;
@@ -87,6 +87,10 @@ p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:focus, address:focus{
 }
 
 .phone-number-header:hover{
+  color:#2196F3; 
+}
+
+.email-header:hover{
   color:#2196F3; 
 }
 
@@ -264,13 +268,14 @@ header{
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
+  color: #FFFFFF;
 }
 
 /* PORTFOLIO */
 
 /* Buttons */
 
-.button{
+.primary-button{
   background-color: var(--primary-bg-color);
   color: var(--main-text-color);
   border-radius: 4px;
@@ -280,6 +285,14 @@ header{
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em
+}
+
+.primary-button:hover{
+  background-color: var(--blue-bg-color);
+}
+
+.primary-button a:hover{
+  color: #FFFFFF;
 }
 
 /* Projects */
