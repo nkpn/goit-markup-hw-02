@@ -18,8 +18,8 @@ li{
   color: var(--main-text-color);
 }
 
-p:hover , h1:hover , h2:hover , h3:hover , a:hover 
-p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:hover{
+p:hover , h1:hover , h2:hover , h3:hover , a:hover, address:hover
+p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:focus, address:focus{
   text-decoration: underline;
   text-decoration-color: #2196F3; 
 }
@@ -40,7 +40,6 @@ p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:hover{
   top: 24px;
   color: #2196f3;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -52,7 +51,6 @@ p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:hover{
 .studio-header {
   color: #212121;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -63,7 +61,6 @@ p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:hover{
 
 .header-item{
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -78,10 +75,6 @@ p:focus, h1:focus, h2:focus, h3:focus, li:focus, a:hover{
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;  
-}
-
-.email-header:hover{
-  color:#2196F3; 
 }
 
 .phone-number-header{
@@ -108,7 +101,6 @@ header{
 
 .h1-section-title{
   font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -149,7 +141,6 @@ header{
   top: 440px;
   */
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -171,7 +162,6 @@ header{
   top: 774px; */
   
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -182,8 +172,6 @@ header{
 
 .text{
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -195,7 +183,6 @@ header{
 
 .h2-title{
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -218,7 +205,6 @@ header{
 
 .name{
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -242,7 +228,6 @@ header{
 .web-footer {
   color: #2196f3;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -252,7 +237,6 @@ header{
 .studio-footer {
   color: #ffffff;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -261,8 +245,6 @@ header{
 
 .email-footer{
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -271,8 +253,6 @@ header{
 
 .phone-number-footer{
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -281,8 +261,6 @@ header{
 
 .address{
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
 }
@@ -296,7 +274,6 @@ header{
   color: var(--main-text-color);
   border-radius: 4px;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
